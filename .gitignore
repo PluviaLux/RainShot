@@ -52,7 +52,6 @@ compile_commands.json
 *creator.user*
 
 # Cmake
-
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
@@ -61,6 +60,12 @@ Testing
 Makefile
 cmake_install.cmake
 install_manifest.txt
-compile_commands.json
 CTestTestfile.cmake
 _deps
+*_autogen
+
+# CLion
+.idea
+
+# binaries
+src/RainShot

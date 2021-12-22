@@ -1,11 +1,11 @@
 add_executable(RainShot
     ${SPECTACLE_SRCS}
     Main.cpp
-    MainWindow.cpp
+    RWidget.cpp
 
-    MainWindow.h
-
-    MainWindow.ui
+    RWidget.h
 )
 
-target_link_libraries(RainShot PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(RainShot
+    Qt::Widgets
+)
